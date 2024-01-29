@@ -21,5 +21,8 @@ public class variabel {
         // penggunaan Final digunakan untuk variabel tidak dapat dirubah lagi atau dianggap constant ( Const)
         final String belajar;
         belajar = "sedang belajar javva";
+
+        final var belajar1 = 123;
+
     }
 }
