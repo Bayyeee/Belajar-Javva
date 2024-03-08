@@ -14,6 +14,26 @@ public class multipelArray {
         System.out.print(arrayInt[1][0]);
         System.out.print(arrayInt[1][1]);
         System.out.println(arrayInt[1][2]);
+        System.out.printf("ini adalah angka array %d\n", arrayInt[0][0]);
+        System.out.printf("ini adalah angka array %d\n", arrayInt[0][1]);
+        System.out.printf("ini adalah angka array %d\n", arrayInt[0][2]);
+        System.out.printf("ini adalah angka array %d\n", arrayInt[1][0]);
+        System.out.printf("ini adalah angka array %d\n", arrayInt[1][1]);
+        System.out.printf("ini adalah angka array %d\n", arrayInt[1][2]);
+        System.out.println("================================");
+
+        // array multi dimensi boolean
+        boolean iniBoolean[][] = {
+            {true, false, true},
+            {false, true, false}
+        };
+
+        System.out.printf("ini adalah array boolean %b\n", iniBoolean[0][0]);
+        System.out.printf("ini adalah array boolean %b\n", iniBoolean[0][1]);
+        System.out.printf("ini adalah array boolean %b\n", iniBoolean[0][2]);
+        System.out.printf("ini adalah array boolean %b\n", iniBoolean[1][0]);
+        System.out.printf("ini adalah array boolean %b\n", iniBoolean[1][1]);
+        System.out.printf("ini adalah array boolean %b\n", iniBoolean[1][2]);
         System.out.println("================================");
 
         // array multi dimensi

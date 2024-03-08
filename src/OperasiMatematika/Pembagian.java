@@ -8,5 +8,6 @@ public class Pembagian {
         int c = a / b;
 
         System.out.println(c);
+        System.out.printf("Hasil dari pembagian %d / %d = %d\n", a, b, (a / b));
     }
 }

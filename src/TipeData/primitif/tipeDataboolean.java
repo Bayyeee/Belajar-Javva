@@ -9,5 +9,8 @@ public class tipeDataboolean {
 
         System.out.println(benar);
         System.out.println(salah);
+
+        System.out.printf("%b\n", benar);
+        System.out.printf("%b", salah);
     }
 }

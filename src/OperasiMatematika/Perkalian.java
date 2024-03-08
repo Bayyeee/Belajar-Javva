@@ -8,5 +8,6 @@ public class Perkalian {
         int b = 20;
         int c = a * b;
         System.out.println(c);
+        System.out.printf("Hasil dari perkalian %d * %d = %d\n", a, b, (a * b));
     }
 }

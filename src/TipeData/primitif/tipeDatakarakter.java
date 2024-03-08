@@ -11,7 +11,8 @@ public class tipeDatakarakter {
         System.out.print(U);
         System.out.print(D);
         System.out.print(I);
-        System.out.print(N);
+        System.out.print(N + "\n");
+        System.out.printf("Nama saya %c%c%c%c", U,D,I,N);
 
     }
 }

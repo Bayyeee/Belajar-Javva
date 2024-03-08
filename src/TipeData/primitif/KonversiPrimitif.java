@@ -6,5 +6,8 @@ public class KonversiPrimitif {
 
         short iniShort = iniInteger.shortValue();
         byte iniByte = iniInteger.byteValue();
+
+        System.out.println(iniByte);
+        System.out.println(iniShort);
     }
 }

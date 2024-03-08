@@ -1,20 +1,20 @@
 package TipeData.nonPrimitif;
 
 public class tipeDataArray {
-    public static void main(String[] args) {
+public static void main(String[] args) {
         // contoh 1 pembuatan array 1
-        Integer[] arrayString;
-        arrayString = new Integer[10];
-        arrayString[0] = 1;
-        arrayString[1] = 2;
-        arrayString[2] = 3;
-        arrayString[3] = 4;
-        arrayString[4] = 5;
-        arrayString[5] = 6;
-        arrayString[6] = 7;
-        arrayString[7] = 8;
-        arrayString[8] = 9;
-        arrayString[9] = 10;
+        Integer[] arrayNumber;
+        arrayNumber = new Integer[10];
+        arrayNumber[0] = 1;
+        arrayNumber[1] = 2;
+        arrayNumber[2] = 3;
+        arrayNumber[3] = 4;
+        arrayNumber[4] = 5;
+        arrayNumber[5] = 6;
+        arrayNumber[6] = 7;
+        arrayNumber[7] = 8;
+        arrayNumber[8] = 9;
+        arrayNumber[9] = 10;
 
         // Contoh 2 pembuatan array
         String[] arrayString2 = new String[4];
@@ -43,22 +43,22 @@ public class tipeDataArray {
         arrayString2[0] = "markomar";
 
         // mengubah data menjadi null pada tipe data non primitif
-//        arrayString[0] = null;
+        //        arrayString[0] = null;
 
 
         // Menampilkan array
-        System.out.println( + arrayString[0] + ". " + arrayString2[0]);
-        System.out.println( + arrayString[1] + ". " + arrayString2[1]);
-        System.out.println( + arrayString[2] + ". " + arrayString2[2]);
-        System.out.println( + arrayString[3] + ". " + arrayString2[3]);
+        System.out.println(arrayNumber[0] + ". " + arrayString2[0]);
+        System.out.println(arrayNumber[1] + ". " + arrayString2[1]);
+        System.out.println(arrayNumber[2] + ". " + arrayString2[2]);
+        System.out.println(arrayNumber[3] + ". " + arrayString2[3]);
 
         // menampilkan panjang array
         System.out.println(arrayLong.length);
 
         int[] arrayInteger = {
-          123, 124, 125
+        123, 124, 125
         };
 
         System.out.println(arrayInteger[0]);
-    }
+}
 }

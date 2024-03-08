@@ -8,6 +8,6 @@ public class Penjumlahan {
         int c = a + b;
 
         System.out.println(c);
-
+        System.out.printf("penjumalahan nilai dari %d + %d = %d\n", a, b, (a + b));
     }
 }

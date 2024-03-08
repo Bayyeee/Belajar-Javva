@@ -8,5 +8,6 @@ public class Pengurangan {
         int c = a - b;
 
         System.out.println(c);
+        System.out.printf("Nilai dari pengurangan %d - %d = %d\n", a, b, (a - b));
     }
 }

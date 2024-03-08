@@ -5,5 +5,8 @@ public class KonversiNonPrimitif {
         // cara konversi tipe data primitif ke nonprimitif
         int age = 10;
         Integer ageObject = age;
+
+        System.out.println(ageObject);
+        System.out.printf("umur ku adalah %d\n", ageObject);
     }
 }

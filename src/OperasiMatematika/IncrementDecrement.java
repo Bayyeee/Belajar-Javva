@@ -14,16 +14,16 @@ public class IncrementDecrement {
             -- Decrement adalah pengurangan 1 angka dari variabel ( Notasi yang digunakan adalah ( -- ) )
             -- Increment adalah penambahan 1 angka dari variabel ( Notasi yang digunakan adalah ( ++ ) didalam increment sendiri terdapat prefix dan postfix )
             maksudnya adalah contoh ( ++a = ini adalah prefix dimana angka pada variabel langsung ditambahkan ) ( a++ = ini adalah postfix dimana angka pada variabel akan ditampilkan dulu dan baru akan ditambahkan, jadi ketika ingin menampilkan hasil increment postfix harus menampilkan variabelnya di print an terbaru)
-
         */
+
         // INI ADALAH CONTOH UNARY DECREMENT
         int angka1 = 10;
         System.out.println("unary 'decrement (--)' menjadi "  + --angka1);
 
         // INI ADALAH CONTOH UNARY INCREMENT
         int angka2 = 20;
-        System.out.printf("unary 'Increment' (++), %d menjadi %d\n", angka2, ++angka2);
-        System.out.printf("unary 'Increment' (++), %d menjadi %d\n", angka2, angka2++);
+        System.out.printf("unary 'Increment (Prefix)' (++), %d menjadi %d\n", angka2, ++angka2);
+        System.out.printf("unary 'Increment (Postfix)' (++), %d menjadi %d\n", angka2, angka2++);
         System.out.println(angka2);
         System.out.println("========================================");
 

@@ -14,5 +14,8 @@ public class tipeDatastring {
         System.out.println(namaAkhir);
         System.out.println(fullName);
 
+        // menggunakan printf
+        System.out.printf("nama awal saya adalah %s\nsedangkan nama akhir saya adalah %s\nJika digabung menjadi %s%s\n", namaAwal, namaAkhir, namaAwal, namaAkhir);
+
     }
 }
