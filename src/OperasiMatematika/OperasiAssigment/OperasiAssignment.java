@@ -4,6 +4,13 @@ public class OperasiAssignment {
     public static void main(String[] args) {
         // Operasi Assignment adalah operator aritmatika yang lebih ringkas dibandingkan menggunakan operator aritmatika
 
+        // yang awalnya harus menggunakan penulisan yang berulangan contoh
+        int uang = 10;
+        uang = uang + 20;
+        // nah penulisan seperti itu tidak efektif dikarenakan menulis berulang kali, maka harus menggunakan operator assignment
+        uang += 20;
+        System.out.println(uang);;
+
         // Penjumlahan
         int a = 10;
         a += 5; // jika di konversikan ke operator aritmatika maka (a = a + 5);
