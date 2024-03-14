@@ -8,8 +8,8 @@ public class konversiTipedata {
         short iniShort = iniByte;
         int iniInt = iniShort;
 
-        int iniInt2 = 1000;
-        byte iniByte2 = (byte) iniInt2;
+        byte iniInt2 = 100;
+        int iniByte2 = (byte)(iniInt2);
 
         System.out.println(iniByte2);
     }
