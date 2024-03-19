@@ -6,6 +6,9 @@ public class KonversiNonPrimitif {
         int age = 10;
         Integer ageObject = age;
 
+        // byte old = 10;
+        // Short oldObject =(short) old;
+
         System.out.println(ageObject);
         System.out.printf("umur ku adalah %d\n", ageObject);
     }
