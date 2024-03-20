@@ -1,4 +1,4 @@
-package Latihan;
+package LatihanC1;
 
 public class OperasiPengelompokan {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Latihan;
+package LatihanC1;
 
 public class LatihanOperasiLogikaChatGpt3 {
     public static void main(String[] args) {
