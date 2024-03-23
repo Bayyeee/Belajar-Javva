@@ -19,6 +19,11 @@ public class LatihanOperasiLogikaChatGpt3 {
         gunung = true;
         hasil = (pantai && !danau) || (!pantai && danau) || (!pantai && gunung);
         keterangan = (hasil) ? "Berangkat" : "Tidak berangkat";
+        // if (hasil) {
+        //     System.out.println("Berangkatt");
+        // } else {
+        //     System.out.println("Tidak berangkat");
+        // }
         System.out.println("Mereka akan : " + keterangan);
 
         // Soal 2 (Operasi Logika AND): Empat sahabat, David, Elsa, Farhan, dan Gina,
